@@ -211,6 +211,41 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+#movie{
+  background-image: url(../video/D39_30_076_comp.jpg);
+  background-size: cover;
+  height: 99vh;
+  /*
+    height: 80vh;
+  */
+}
+#bgvid {
+
+  position: fixed;
+  top:0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+}
+#movie p {
+  color:white;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 600px){
+  #movie p{
+    float:right;
+    margin-top: 250px;
+    top: 60px;
+    width: 50%;
+    max-width: 500px;
+  }
+  #movie {
+    background: none;
+  }
 /* copy#text-4{
 	width:25%;
 	float:left;
